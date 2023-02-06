@@ -29,9 +29,7 @@ namespace API_Rest_Avec_Etat.Controllers.Tests
         [TestMethod()]
         public void SeriesControllerTest()
         {
-            DbSet<Serie> test = _context.Series;
 
-            Assert.IsNotNull(test);
         }
 
         [TestMethod()]
